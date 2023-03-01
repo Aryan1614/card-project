@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  --darkGreen: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --gray: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --head: 2rem;
+  --text: 1rem;
+}
+
+
+*{
+    padding : 0;
+    margin: 0;
+    /* overflow : hidden; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.card{
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: flex;
+    height: 400px;
+    width: 650px;
+    border-radius: 25px;
+}
+
+.left-part{
+    /* width: 500px; */
+    flex-basis: 50%;
+}
+.right-part{
+    flex-basis: 50%;
+    padding: 16px;
+    margin:16px;
+}
+.left-part img{
+    height: 100%;
+}
+.he{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+.he2{
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0;
+}
+.p1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+    color: grey;
+}
+.prizes{
+    margin-top: 25px;
+}
+.rupee1{
+    padding-right: 10px;
+    color: var(--darkGreen);
+    font-weight:800;
+    font-size:xx-large;
+    font-family: "Fraunces", serif;
+}
+.rupee2{
+    text-decoration: line-through;
+    color: grey;
+}
+.add-to-cart{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:hsl(158, 36%, 37%);
+    background-color: var(--darkGreen);
+    height: 40px ;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    background-color: hsl(159, 32%, 16%);
+}
+.text{
+    margin-left: 15px;
+    color: white;
+}
